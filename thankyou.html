@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Form Saved</title>
+</head>
+<style>
+ /* CSS RESet */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+.head
+.log{
+    display: inline-block;
+    
+    /* text-align: center; */
+    width: 100%;
+    /* border: 2px solid red; */
+    margin: 0px 0px;
+    padding: 15px 20px;
+
+}
+
+.head1{
+
+    display: flex;
+    
+    text-align: center;
+    width: 100%;
+    /* border: 2px solid red; */
+    
+    background-color: #434343;
+    font-size: 3.5rem;
+    font-family: 'Baloo Bhai', cursive;
+    animation: animate 3s forwards;
+    opacity: 0.89;
+}
+.head1 p{
+    color: #a8e8a8;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 350px;
+    font-family: 'Trocchi', serif;
+}
+.head1 img{
+    text-align: left;
+    margin: 6px 39px;
+}
+
+
+
+
+/* Navigation Bar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: -1px;
+    background-color: #dedddd;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.77;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 48px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px -10px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    
+    color: #a8e8a8;
+    display: block;
+    margin-left: 22px;
+    padding: 3px 70px;
+    border-radius: 15px;
+    text-decoration:wavy;
+
+}
+
+#navbar ul li a:hover{
+    transition: 1s;
+    color: black;
+    background-color:white;
+}
+#navbar ul input[type=text] {
+    float: right;
+    border: 2px solid gray;
+    border-radius: 20px;
+    
+    padding: 0px 45px;
+    /* border: none; */
+    margin-top: 0px;
+    margin-right: 0px;
+    font-size: 16px;
+    
+    color: black;
+    cursor: pointer;
+
+  }
+
+
+
+.box{
+    margin:10px;
+    border:white;
+    padding: 20px;
+    height: 400px;
+    width:100%;
+    background-color:rgb(255, 253, 243)  ;
+    font-family:cursive;
+    font-size:20px ;
+    display:block;
+    color:rgb(116, 208, 236);
+    text-align: center;
+    text-decoration: none;
+    }
+
+         /* Add a hover effect if you want */
+         .fa:hover {
+        opacity: 0.7;
+      }
+      
+      /* Set a specific color for each brand */
+      
+      /* Facebook */
+      .fa-linkedin {
+        background: #f4f6fa;
+        color: rgb(39, 142, 226);
+      }
+      
+      /* Twitter */
+      .fa-youtube {
+        background: #cb2027;
+        color: white;
+    }
+      .fa-facebook {
+        background: #206ccb;
+        color: white;
+    }
+      .fa-twitter {
+        background: #fefefe;
+        color: #2c6dbe;
+    }
+
+    
+   
+     
+    
+    .fa-instagram {
+        background:palevioletred;
+        color: white;
+   
+     
+    }
+/* Footer */
+.inner-footer {
+        margin: 0px;
+        padding: 0px;
+
+        background-color: #dddddd;
+    }
+
+    .social-links {
+        display: flex;
+    }
+
+    .social-links ul {
+        padding: 20px;
+        display: flex;
+        width: 300px;
+        height: 30px;
+        margin: auto;
+
+    }
+
+    .social-items {
+        display: flex;
+    }
+
+    .social-items {
+        list-style: none;
+    }
+
+    .social-items a {
+        padding: 10px 20px;
+        font-size: 35px;
+        /* color:#6cccc6 ; */
+        transition: all .25s;
+    }
+
+    .social-items a:hover {
+        color: #54ada8;
+    }
+
+    .quick-links {
+        display: flex;
+        width: 560px;
+        height: 70px;
+        margin: 60px 560px;
+    }
+
+    .quick-links ul {
+        display: flex;
+    }
+
+    .quick-items {
+        list-style: none;
+    }
+
+    .quick-items a {
+        text-decoration: none;
+        padding: 0px 15px;
+        font-size: 20px;
+        color: #052b28;
+        transition: all .25s;
+
+    }
+
+    .quick-items a:hover {
+        color: blue;
+
+    }
+
+    .outer-footer {
+        background-color: #dddddd;
+        margin-top: -59px;
+        padding: 10px;
+        text-align: center;
+        color: #6cccc6;
+        font-size: 18px;
+    }
+
+
+</style>
+<body>
+    <header>
+        <div class="head1">
+          <img src="The Travel Blog-logos_edited1.jpg" alt="KashiBlog" width="100px" height="100px">
+          <p>
+            The Travel Blog
+    
+          </p>
+        </div>
+    
+    </header>
+    <nav id="navbar">
+        <div id="logo">
+          <img src="kashi_logos.jpg" alt="KashiBlog" width="100px" height="100px">
+        </div>
+        <ul>
+          <li class="itam"><a href="index.html" >Home</a></li>
+          <li class="itam"><a href="ghat.html" >Ghats</a></li>
+          <li class="itam"><a href="temple.html">Temples</a></li>
+          <li class="itam"><a href="food.html">Food & Hotels</a></li>
+          <li class="itam"><a href="near.html">Near By Places</a></li>
+          
+    
+    
+        </ul>
+    
+    
+      </nav>
+      <div class=box>
+          <img src= "em (2).jpg">
+          <h1>THANK YOU FOR VISITING</h1>
+          <p>We Will Contact You Soon...</p>
+      </div>
+      <footer class="footer">
+        <div class="inner-footer">
+          <div class="social-links">
+            <ul>
+              <li class="social-items"><a href="https://m.facebook.com/104571722076653/" target="blank"><i
+                    class="fab fa-facebook"></i></a></li>
+              <li class="social-items"><a href="https://twitter.com/TravelVaranasi?t=kGUeXzdr3YJGnl6yjNmULA&s=08"
+                  target="blank"><i class="fab fa-twitter"></i></a></li>
+              <li class="social-items"><a href="https://instagram.com/kashi_the_luminous_city?utm_medium=copy_link"
+                  target="blank"><i class="fab fa-instagram"></i></a></li>
+              <li class="social-items"><a href="https://youtube.com/channel/UCE41_7ZSlgA_ZO7W9AR0Uiw"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div>
+          <div class="quick-links">
+            <ul>
+              <li class="quick-items"><a href="Page1.html">Home</a></li>
+              <li class="quick-items"><a href="#services-container">Featuring</a></li>
+              <li class="quick-items"><a href="#about Us">About Us</a></li>
+              <li class="quick-items"><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+    
+        </div>
+        <footer>
+         <div class="outer-footer">
+          | Copyright &copy; TTB !!! All Right Reserved |
+        </div>
+      </footer>  
+   
+    
+</body>
+</html>
